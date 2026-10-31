@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded models and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.pth
+*.pt
+*.bin
+
+# Dataset files
+datasets/
+data/
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
